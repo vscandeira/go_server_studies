@@ -27,11 +27,9 @@ func head_with_body(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Error trying to read body of request", http.StatusInternalServerError)
 		fmt.Fprintf(w, "Error trying to read body of request: %v\n", err)
 		return
-	} else {
-		fmt.Fprintf(w, "\n%s\n", string(body))
 	}
-
 	r.Body.Close()
+	fmt.Fprintf(w, "\n%s\n", string(body))
 
 }
 
