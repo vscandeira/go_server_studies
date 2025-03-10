@@ -1,0 +1,26 @@
+<!-- basic html page with a basica form and a submitt button with fields to 
+ name, accept invitations, age, e-mail-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Static Page</title>
+</head>
+<body>
+    <h1>Static Page</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="accept">Accept Invitations:</label>
+        <input type="checkbox" id="accept" name="accept">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
