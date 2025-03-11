@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "mailjohn@mail.com",
+        "age": 25,
+        "social": {
+            "facebook": "https://www.facebook.com/johndoe",
+            "twitter": "https://www.twitter.com/johndoe"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "mailjane@mail.com",
+        "age": 22,
+        "social": {
+            "facebook": "https://www.facebook.com/janedoe",
+            "twitter": "https://www.twitter.com/janedoe"
+        }
+    }
+]
